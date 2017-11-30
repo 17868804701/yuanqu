@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #007aff;
+            color: white;
+            height: 40px;
+            width: 100%;
+            text-align: center;
+            line-height: 40px;
+            position: fixed;
+            top: 0;
+        }
+
+        .header_title {
+            width: 100%;
+            height: 40px;
+            background: #f0f0f0;
+            line-height: 40px;
+            color: #424242;
+            margin-top: 40px;
+        }
+
+        .header_title span {
+            margin-left: 3.5%;
+        }
+        .content{
+            width: 100%;
+            background: white;
+        }
+        .list{
+            width: 95%;
+            margin-left: 2.5%;
+            height: 45px;
+            line-height: 45px;
+            border-bottom: 1px solid #d9d9db;
+        }
+        .list span{
+            font-size: 16px;
+            color: #333333;
+            margin-left: 1%;
+        }
+        .list input{
+            height: 30px;
+            width: 65%;
+            border: 0;
+            font-size: 16px;
+            margin-left: 2%;
+        }
+        .btn{
+            height: 40px;
+            background:#007aff ;
+            width: 90%;
+            line-height: 40px;
+            border: 0px;
+            margin-left: 5%;
+            color: white;
+            margin-top: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        详细信息
+    </header>
+    <div class="header_title">
+        <span>违规信息登记</span>
+    </div>
+    <div class="content">
+        <div class="list">
+            <span>时间日期:</span>
+            <input type="text" placeholder="2017-10-19">
+        </div>
+        <div class="list">
+            <span>驾驶员姓名:</span>
+            <input type="text" placeholder="黄森">
+        </div>
+        <div class="list">
+            <span>路别:</span>
+            <input type="text" placeholder="286路">
+        </div>
+        <div class="list">
+            <span>车牌号:</span>
+            <input type="text" placeholder="陕A56874">
+        </div>
+        <div class="list">
+            <span>所属公司:</span>
+            <input type="text" placeholder="欧亚公司">
+        </div>
+        <div class="list" style="height: 158px">
+            <span>违纪事由:</span> <br>
+            <textarea style="width: 95%;margin-left: 2.5%;height: 100px" placeholder="请输入违纪事由"></textarea>
+        </div>
+        <div class="list" style="height: 330px">
+            <span>上传照片(最多八张)</span> <br>
+            <input type="file" style="width: 40%">
+            <input type="file" style="width: 40%">
+            <input type="file" style="width: 40%">
+            <input type="file" style="width: 40%">
+            <input type="file" style="width: 40%">
+            <input type="file" style="width: 40%">
+            <input type="file" style="width: 40%">
+            <input type="file" style="width: 40%"><br>
+            <span>上传视频</span> <br>
+            <input type="file">
+        </div>
+        <div class="list">
+            <span>填报人:</span>
+            <input type="text" placeholder="张三">
+        </div>
+        <div class="list">
+            <span>所属部门:</span>
+            <input type="text" placeholder="维修部">
+        </div>
+        <div class="list">
+            <span>填报单位:</span>
+            <input type="text" placeholder="西安欧亚学院">
+        </div>
+        <!--<div class="list">-->
+            <!--<span>到达时间:</span>-->
+            <!--<input type="text" placeholder="2017-10-10">-->
+        <!--</div>-->
+        <!--<div class="list">-->
+            <!--<span>复核人:</span>-->
+            <!--<input type="text" placeholder="李四">-->
+        <!--</div>-->
+        <!--<div class="list">-->
+            <!--<span>复核时间:</span>-->
+            <!--<input type="text" placeholder="2017-10-10">-->
+        <!--</div>-->
+        <!--&lt;!&ndash;<div class="list" style="height: 158px">&ndash;&gt;-->
+            <!--&lt;!&ndash;<span>复核意见:</span> <br>&ndash;&gt;-->
+            <!--&lt;!&ndash;<textarea style="width: 95%;margin-left: 2.5%;height: 100px" placeholder="请输入复核意见"></textarea>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--<div class="list">-->
+            <!--<span>违规注销状态:</span>-->
+            <!--<input type="text" placeholder="是" style="width: 50%">-->
+        <!--</div>-->
+        <!--&lt;!&ndash;<div class="list" style="height: 158px">&ndash;&gt;-->
+            <!--&lt;!&ndash;<span>副大队长审批意见:</span> <br>&ndash;&gt;-->
+            <!--&lt;!&ndash;<textarea style="width: 95%;margin-left: 2.5%;height: 100px" placeholder="请输入审批意见"></textarea>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<div class="list" style="height: 158px">&ndash;&gt;-->
+            <!--&lt;!&ndash;<span>大队长审批意见:</span> <br>&ndash;&gt;-->
+            <!--&lt;!&ndash;<textarea style="width: 95%;margin-left: 2.5%;height: 100px" placeholder="请输入审批意见"></textarea>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+        <!--<div class="list">-->
+            <!--<span>审查人:</span>-->
+            <!--<input type="text" placeholder="王五">-->
+        <!--</div>-->
+        <!--<div class="list">-->
+            <!--<span>审批人:</span>-->
+            <!--<input type="text" placeholder="赵六">-->
+        <!--</div>-->
+
+        <!--<div class="list">-->
+            <!--<span>副队长审查时间:</span>-->
+            <!--<input type="text" placeholder="2017-10-10" style="width: 50%">-->
+        <!--</div>-->
+
+        <!--<div class="list">-->
+            <!--<span>大队长审批时间:</span>-->
+            <!--<input type="text" placeholder="2014-10-10" style="width: 50%">-->
+        <!--</div>-->
+
+        <button class="btn" onclick="alert(1111111111)">提交</button>
+    </div>
+</div>
+</body>
+</html>
