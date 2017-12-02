@@ -31,11 +31,17 @@
         .news {
             word-break: break-all;
             display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .new {
+            word-break: break-all;
+            display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
-
         .title_news {
             word-break: break-all;
             display: -webkit-box;
@@ -46,6 +52,7 @@
     </style>
 </head>
 <body>
+<!--头部导航-->
 <header class="am-topbar header">
     <div class="am-container-1">
         <div class="left hw-logo">
@@ -74,18 +81,17 @@
         </div>
     </div>
 </header>
+<!--轮播图-->
 <div class="rollpic">
     <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}'>
         <ul class="am-slides">
             <li><img src="./img/lbt.jpg"/></li>
             <li><img src="./img/103706_1410316626097.jpg"/></li>
             <li><img src="./img/142515_1412663115847.jpg"/></li>
-            <!--<li><img src="./img/hw_bg.png"/></li>-->
-            <!--<li><img src="./img/hw_bg3.png"/></li>-->
         </ul>
     </div>
 </div>
-<!--<img src="./img/data.png" alt="" style="margin-top: 5px;margin-left: 2px">-->
+<!--数字-->
 <div style="width: 90%;text-align: center;margin-left: 5%;background: #0086da;height: 100%;margin-top: -2.1%">
     <div class="am-container-1 data">
         <ul class="am-g part-content solutions-content">
@@ -106,34 +112,16 @@
                 <span class="solutions-title title">合作伙伴</span>
             </li>
         </ul>
-        <!--<div class="data">-->
-        <!--<span class="MixNumber">68</span><br>-->
-        <!--<span class="font-18">城市</span>-->
-        <!--</div>-->
-        <!--<div class="line"></div>-->
-        <!--<div class="data">-->
-        <!--<span class="MixNumber">325</span><br>-->
-        <!--<span class="font-18">园区</span>-->
-        <!--</div>-->
-        <!--<div class="line"></div>-->
-        <!--<div class="data">-->
-        <!--<span class="MixNumber">865</span><br>-->
-        <!--<span class="font-18">会员</span>-->
-        <!--</div>-->
-        <!--<div class="line"></div>-->
-        <!--<div class="data">-->
-        <!--<span class="MixNumber">1256</span><br>-->
-        <!--<span class="font-18">合作伙伴</span>-->
-        <!--</div>-->
     </div>
 </div>
+<!--园区需求-->
 <div class="am-container-1">
     <div class="solutions part-all">
         <div class="part-title">
             <a href="">
                 <i class="am-icon-lightbulb-o part-title-i"></i>
                 <span class="part-title-span">园区需求</span>
-                <p>Solutions</p>
+                <p>Park Demand</p>
             </a>
         </div>
         <ul class="am-g part-content solutions-content">
@@ -160,13 +148,16 @@
         </ul>
     </div>
 </div>
+
+
+<!--园区服务-->
 <div class="gray-li">
     <div class="customer-case part-all ">
         <div class="part-title">
             <a href="">
                 <i class=" am-icon-briefcase part-title-i"></i>
                 <span class="part-title-span">园区服务</span>
-                <p>Customer Case</p>
+                <p>Park Service</p>
             </a>
         </div>
         <ul data-am-widget="gallery" class=" am-avg-sm-1
@@ -299,6 +290,8 @@
         </div>
     </div>
 </div>
+
+<!--新闻动态-->
 <div class=" news-all">
     <div class="am-container-1">
         <div class="news part-all">
@@ -321,9 +314,9 @@
                             <div class=" am-u-sm-12 am-u-md-12 am-u-lg-7">
                                 <span class="news-right-title title_news">聚焦青创园，携手硬科技</span>
                                 <p class="news-right-time">2017-11-09</p>
-                                <p class="news-right-words news">
+                                <p class="news-right-words new">
                                     11月8日下午，西咸新区丝路经济带能源金融贸易区携手上海飞马旅在西咸人才大厦举行西咸青年创业园推介会暨硬科技项目入园签约仪式</p>
-                                <a><span class="see-more2">查看更多<i class="am-icon-angle-double-right"></i></span></a>
+                                <a href="./pages/newsContent.html"><span class="see-more2">查看更多<i class="am-icon-angle-double-right"></i></span></a>
                             </div>
                             <div class="clear"></div>
                         </a>
@@ -338,9 +331,9 @@
                             <div class=" am-u-sm-12 am-u-md-12 am-u-lg-7">
                                 <span class="news-right-title title_news">恒大集团谈朝晖常务副总裁- 考察座谈</span>
                                 <p class="news-right-time">2015-06-11</p>
-                                <p class="news-right-words news">
+                                <p class="news-right-words new">
                                     11月6日下午，恒大集团常务副总裁谈朝晖恒大集团常务副总裁谈朝晖恒大集团常务副总裁谈朝晖恒大集团常务副总裁谈朝晖一行来园区考察,并就恒大健康产业落户与园办主任徐军前进行了交流座谈。园办副主任郁德强及...</p>
-                                <a><span class="see-more2">查看更多<i class="am-icon-angle-double-right"></i></span></a>
+                                <a href="./pages/newsContent.html"><span class="see-more2">查看更多<i class="am-icon-angle-double-right"></i></span></a>
                             </div>
                             <div class="clear"></div>
                         </a>
@@ -353,7 +346,7 @@
     </div>
 </div>
 
-
+<!--下载中心-->
 <div class="am-container-1">
     <div class="news part-all">
         <div class="part-title">
@@ -407,28 +400,7 @@
     </div>
 </div>
 
-
-<!--<div class="three-reason" style="background: darkcyan">-->
-<!--<div class="part-title three-reason-title">-->
-<!--<span class="part-title-span w-white">选择恒望的三大理由</span>-->
-<!--<p class="w-white">Why Choose Hengwang</p>-->
-
-<!--</div>-->
-<!--<ul class="am-g part-content three-reason-content">-->
-<!--<li class="am-u-sm-4 am-u-md-4 am-u-lg-4">-->
-<!--<div class="three-reason-img1 "></div>-->
-<!--<p class="reason-title w-white">规模优势<br/>Scale advantage</p>-->
-<!--</li>-->
-<!--<li class="am-u-sm-4 am-u-md-4 am-u-lg-4">-->
-<!--<div class="three-reason-img2 "></div>-->
-<!--<p class="reason-title w-white ">领先技术<br/>Leading technology</p>-->
-<!--</li>-->
-<!--<li class="am-u-sm-4 am-u-md-4 am-u-lg-4">-->
-<!--<div class="three-reason-img3 "></div>-->
-<!--<p class="reason-title w-white">整合能力<br/>Integration capability</p>-->
-<!--</li>-->
-<!--</ul>-->
-<!--</div>-->
+<!--入住 企业-->
 <div class="part-all gray-li">
     <div class="customer  am-container-1">
         <div class="part-title">
@@ -452,18 +424,9 @@
                 <li><img src="./img/ptn8.png"/></li>
             </ul>
         </div>
-        <!--<ul class="customer-content">-->
-        <!--<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="./img/ptn4.png"/></div></li>-->
-        <!--<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="./img/ptn5.png"/></div></li>-->
-        <!--<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="./img/ptn6.png"/></div></li>-->
-        <!--<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="./img/ptn7.png"/></div></li>-->
-        <!--<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="./img/ptn8.png"/></div></li>-->
-        <!--<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="./img/ptn4.png"/></div></li>-->
-        <!--<div class="clear"></div>-->
-        <!--</ul>-->
     </div>
 </div>
-
+<!--底部-->
 <footer class="footer">
     <ul>
         <li class="am-u-lg-4 am-u-md-4 am-u-sm-12 part-5-li2">
