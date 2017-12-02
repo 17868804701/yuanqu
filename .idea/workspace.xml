@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="943e2ccf-235b-4ab4-a6eb-e7fa4b89522b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/yuanquService.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/newsContent.html" afterPath="$PROJECT_DIR$/pages/newsContent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/newsList.html" afterPath="$PROJECT_DIR$/pages/newsList.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="460" column="42" lean-forward="true" selection-start-line="460" selection-start-column="42" selection-end-line="460" selection-end-column="42" />
+            <state relative-caret-position="456">
+              <caret line="67" column="47" lean-forward="false" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yuanquService.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/yuanquService.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -44,8 +53,8 @@
       <file leaf-file-name="newsContent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/newsContent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+            <state relative-caret-position="96">
+              <caret line="70" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="147" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/pages/newsContent.html" />
         <option value="$PROJECT_DIR$/pages/newsList.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/yuanquService.html" />
       </list>
     </option>
   </component>
@@ -139,6 +149,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yuanqu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuanqu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuanqu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,12 +584,12 @@
       <workItem from="1512034678736" duration="4286000" />
       <workItem from="1512113082389" duration="7441000" />
       <workItem from="1512132857401" duration="2273000" />
-      <workItem from="1512182985543" duration="1897000" />
+      <workItem from="1512182985543" duration="3433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51175000" />
+    <option name="totallyTimeSpent" value="52711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="0" />
@@ -867,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/newsContent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/newsList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
@@ -888,10 +902,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/newsContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="70" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="147" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="460" column="42" lean-forward="true" selection-start-line="460" selection-start-column="42" selection-end-line="460" selection-end-column="42" />
+        <state relative-caret-position="456">
+          <caret line="67" column="47" lean-forward="false" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/yuanquService.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding />
         </state>
       </provider>
